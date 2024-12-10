@@ -59,7 +59,7 @@ alphabet = ['a',
 
 def HelloWorld(cmd):
     desired = "I""n""v""a""l""i""d"" ""c""o""m""m""a""n""d""."
-    if cmd == "print":
+    if cmd == "p""r""i""n""t":
         desired = "H""e""l""l""o"" ""W""o""r""l""d""!"
     for eyetem in desired:
         current_indecks = random.randint(0, len(alphabet)-1)
